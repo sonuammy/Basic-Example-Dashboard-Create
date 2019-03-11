@@ -1,0 +1,40 @@
+.navbar-default {
+    background-color: #80b5ff;
+}
+.navbar-brand{
+    color: #4a4848;
+}
+.btn-default:hover {
+    color: #333;
+    background-color: #4795f1;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #4795f1;
+}
+.navbar-default .navbar-toggle:focus {
+    background-color: #80b5ff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+input[type=text] {
+    width: .4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 250px;
+}
+
+
+/* input[type=search]:focus {
+    width: 250px;
+    outline: 0;
+}
+
+.search-container input {
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 7px 15px;
+    width: .4s ease-in-out;
+} */
