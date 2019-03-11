@@ -4,6 +4,24 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+install bootstrap 3 
+npm install bootstrap@3 jquery --save
+
+set the path in angular.json file:
+
+"styles": [
+  "src/styles.css",
+  "./node_modules/bootstrap/dist/css/bootstrap.min.css" 
+],  
+"scripts": [
+  "./node_modules/jquery/dist/jquery.min.js",
+  "./node_modules/bootstrap/dist/js/bootstrap.min.js"  
+] 
+
+Quit server  : ctrl+c
+then 
+Start server
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
